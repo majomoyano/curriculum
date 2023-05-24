@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 h1 {
   color: #c4d9ed;
@@ -10,6 +10,6 @@ h1 {
 }
 
 .h2 {
-  font-family: Times New Roman, serif;
+  font-family: Roboto, Times New Roman, serif;
 }
 
