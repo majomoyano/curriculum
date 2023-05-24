@@ -1,38 +1,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
 h1 {
   color: #094067;
-  font-family: Georgia, serif; 
+  font-family: Roboto,Georgia, serif; 
   background-color: #fffffe;
 }
 
+
 * {
-  font-family: Arial, sans-serif;
+  font-family: Montserrat,Arial, sans-serif;
 }
 
 .h2 {
   font-family: Roboto, Times New Roman, serif;
-    color: #c4d9ed
+    color: #3da9fc;
 }
 
-c
+/*1*/
+#Personal {
+  color: #72757e;
+  background-color: #ffc0ad;
+}
+
+#Personal>h2 {
+  color: 9656a1;
+}
+
+
+/*2*/
+
+#Education {
+  color: ;
+  background-color: #eaddcf;
+}
 
 #Education>h2 {
   color: #8bd3dd;
-  
-}
-#Work {
-  color: #3da9fc;
-  background-color: #ff8906;
 }
 
-#Education {
-  color: #b8c1ec;
-  background-color: #eaddcf;
+#Location {
+  /*>iframe*/
+  text-align: center;
 }
-a{
- text-decoration: none; /* eliminasubrayado*/
- font-size: 1-2rem; 
+
+
+/*3*/
+#Work {
+  color: #72757e;
+  background-color: #67568c;
+}
+
+#Work>h2 {
+  color: #3da9fc;
+}
+
+
+/*4*/
+#Volunteering {
+  color: #72757e;
+  background-color: #e3f6f5;
+}
+
+#Volunteering >h2 {
+  color: #ffd803;
 }
 
 #Volunteering>foto {
@@ -43,8 +74,36 @@ a{
   margin-right: 25%;
   margin-bottom: 2px;
 }
-#Location {
-  /*>iframe*/
-  text-align: center;
+
+
+/*5*/
+#Skills {
+  color: #72757e;
+  background-color: #abd1c6;
 }
+
+#Skills >h2 {
+  color: #004643;
+}
+
+
+/*6*/
+#Languages {
+  color: #72757e;
+  background-color: #d9d4e7;
+}
+
+#Languages >h2 {
+  color: ##e45858;
+}
+
+
+/* Propiedades de texto*/
+a{
+ text-decoration: none; /* eliminar subrayado*/
+ font-size: 1-2rem; 
+}
+
+
+
 
