@@ -20,11 +20,11 @@ h1 {
 /*1*/
 #Personal {
   color: #16161a;
-  background-color: #f3d2c1;
+  background-color: #FF8A80;
 }
 
 #Personal>h2 {
-  color: #8bd3dd;
+  color: #FF5252;
 }
 
 
@@ -32,11 +32,11 @@ h1 {
 
 #Education {
   color: #16161a;
-  background-color: #ffc0ad;
+  background-color: #E1BEE7;
 }
 
 #Education>h2 {
-  color: #e78fb3;
+  color: #BA68C8;
 }
 
 #Location {
@@ -48,22 +48,22 @@ h1 {
 /*3*/
 #Work {
   color: #16161a;
-  background-color: #ffc6c7;
+  background-color: #BBDEFB;
 }
 
 #Work>h2 {
-  color: #ff8ba7;
+  color: #64B5F6;
 }
 
 
 /*4*/
 #Volunteering {
   color: #16161a;
-  background-color: #abd1c6;
+  background-color: #D1C4E9;
 }
 
 #Volunteering >h2 {
-  color: #f9bc60;
+  color: #B39DDB;
 }
 
 #Volunteering>foto {
@@ -79,22 +79,22 @@ h1 {
 /*5*/
 #Skills {
   color: #16161a;
-  background-color: #eaddcf;
+  background-color: #80CBC4;
 }
 
 #Skills >h2 {
-  color: #8c7851;
+  color: #4DB6AC;
 }
 
 
 /*6*/
 #Languages {
   color: #16161a;
-  background-color: #3da9fc;
+  background-color: #C5E1A5;
 }
 
 #Languages >h2 {
-  color: #90b4ce;
+  color: #AED581;
 }
 
 
