@@ -23,7 +23,7 @@ h1 {
   background-color: #FF8A80;
 }
 
-#Personal>h2 {
+#Personal > h2 {
   color: #FF5252;
 }
 
@@ -35,7 +35,7 @@ h1 {
   background-color: #E1BEE7;
 }
 
-#Education>h2 {
+#Education > h2 {
   color: #BA68C8;
 }
 
@@ -51,7 +51,7 @@ h1 {
   background-color: #BBDEFB;
 }
 
-#Work>h2 {
+#Work > h2 {
   color: #64B5F6;
 }
 
@@ -62,11 +62,11 @@ h1 {
   background-color:  #C5E1A5;
 }
 
-#Volunteering >h2 {
+#Volunteering > h2 {
   color:  #AED581;
 }
 
-#Volunteering>foto {
+#Volunteering > foto {
   border: 1pt solid black;
   padding: 1.1rem;
   margin-top: 10px;
@@ -82,7 +82,7 @@ h1 {
   background-color: #80CBC4;
 }
 
-#Skills >h2 {
+#Skills > h2 {
   color: #4DB6AC;
 }
 
@@ -93,7 +93,7 @@ h1 {
   background-color: #D1C4E9;
 }
 
-#Languages >h2 {
+#Languages > h2 {
   color: #B39DDB;
 }
 
