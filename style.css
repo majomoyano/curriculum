@@ -165,8 +165,8 @@ main {
 
 .galeria .box-container img {
     /*hacer que todas las imagenes sean del mismo tamaño*/
-    width: 50%;
-    height: 50%; 
+    width: 30%;
+    height: 30%; 
     object-fit: cover; /*evita que la imagen se vea estirada o distorcionada*/
 }
 
