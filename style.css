@@ -1,26 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Nunito:wght@200;300;400;500;600&display=swap');
 
 h1 {
-  color: #094067;
-  font-family: Roboto,Georgia, serif; 
+  color: #00509d;
+  font-family: 'Nunito','Roboto',Georgia, serif; 
+ 
   background-color: #fffffe;
 }
 
 
 * {
-  font-family: Montserrat,Arial, sans-serif;
+  font-family: 'Montserrat',Arial, sans-serif;
 }
 
 .h2 {
-  font-family: Roboto, Times New Roman, serif;
+  font-family: 'Roboto', Times New Roman, serif;
     color: #3da9fc;
 }
 
 /*1*/
 #Personal {
   color:#263238;
-  background-color: #FF8A80;
+  background-color: #fec5bb;
 }
 
 #Personal > h2 {
@@ -32,7 +34,7 @@ h1 {
 
 #Education {
   color: #263238;
-  background-color: #E1BEE7;
+  background-color: #ffe5d9;
 }
 
 #Education > h2 {
@@ -48,7 +50,7 @@ h1 {
 /*3*/
 #Work {
   color: #263238;
-  background-color: #BBDEFB;
+  background-color: #fcd5ce;
 }
 
 #Work > h2 {
@@ -59,7 +61,7 @@ h1 {
 /*4*/
 #Volunteering {
   color: #263238;
-  background-color:  #C5E1A5;
+  background-color:  #ffd7ba;
 }
 
 #Volunteering > h2 {
@@ -79,7 +81,7 @@ h1 {
 /*5*/
 #Skills {
   color: #263238;
-  background-color: #80CBC4;
+  background-color: #fec89a;
 }
 
 #Skills > h2 {
@@ -90,13 +92,17 @@ h1 {
 /*6*/
 #Languages {
   color: #263238;
-  background-color: #D1C4E9;
+  background-color: #d8e2dc;
 }
 
 #Languages > h2 {
   color: #B39DDB;
 }
-
+/*7*/
+#footer {
+  color: #263238;
+  background-color: #e7c6ff;
+}
 
 /* Propiedades de texto*/
 a{
@@ -123,7 +129,7 @@ main {
   grid-area: fila1;
 }
 
-#Education{
+#Work{
   grid-area: fila21;
 }
 
@@ -131,7 +137,7 @@ main {
   grid-area: fila22;
 }
 
-#Work{
+#Education{
   grid-area: fila31;
 }
 
@@ -148,6 +154,30 @@ main {
 }
 
 
+/*efectos*/
+.flex .menu a:hover {
+    text-decoration: underline;
+    color: #be9c79;;
+}
+
+.flex .menu a {
+    margin-left: 2rem;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.flex {
+    /* Sticky navbar */
+     
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; 
+    background-color: #f8edeb;
+    box-shadow: #333; /* Shadow */
+
+}
 
 
 
