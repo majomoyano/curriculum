@@ -153,6 +153,22 @@ main {
   grid-area: fila41;
 }
 
+/* Galeria */
+
+.Skills .galeria .box-container {
+    
+    display: grid;
+    grid-template-columns: /*repeat(3, 1fr);*/repeat(auto-fit, 20rem);/*se ajusta para que no exista desbordamiento, 20rem es el valor minimo*/
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.Skills .galeria .box-container img {
+    /*hacer que todas las imagenes sean del mismo tamaño*/
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; /*evita que la imagen se vea estirada o distorcionada*/
+}
 
 /*efectos*/
 .flex .menu a:hover {
