@@ -104,6 +104,81 @@ a{
  font-size: 1-2rem; 
 }
 
+/*Estructura general con flex o grid*/
+/* Grid: AREAS */
+main {
+  display: grid; /* Modo de colocar los elementos internos a grid*/
+  row-gap: 0.5rem; /* Separación entre filas*/
+  column-gap: 0.5rem; /* Separación entre columnas*/
+  grid-template-areas: "fila1 fila1 fila1 fila1 fila1 fila1"
+                       "fila21 fila21 fila21 fila22 fila22 fila22"
+                       "fila31 fila31 fila32 fila32 fila33 fila33"
+                       "fila41 fila41 fila41 fila41 fila41 fila41";
+                       /*“fila1 fila1 fila1 fila1 fila1 fila1”
+  “fila21 fila21 fila21 fila22 fila22 fila22”
+  “fila31 fila31 fila32 fila32 fila33 fila33”
+  “fila41 fila41 fila41 fila42 fila42 fila42” # Nombres de las áreas*/
+}
+#Personal{
+  grid-area: fila1;
+}
+
+#Education{
+  grid-area: fila21;
+}
+
+#Languages{
+  grid-area: fila22;
+}
+
+#Work{
+  grid-area: fila31;
+}
+
+#Volunteering{
+  grid-area: fila32;
+}
+
+#Skills{
+  grid-area: fila33;
+}
+
+#footer{
+  grid-area: fila41;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
